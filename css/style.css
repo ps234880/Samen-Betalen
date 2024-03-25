@@ -37,6 +37,7 @@ form {
     flex-direction: column;
     width: 90%;
     gap: 10px;
+    color: #36456B;
 }
 
 input {
@@ -47,19 +48,22 @@ input {
 
 button {
     color: #FFFAFA;
-    background-color: #606B8A;
+    background-color: #36456B;
     height: 35px;
     border-radius: 10px;
     border: none;
 }
 
 .login-card {
+    margin-top: 50px;
+    padding: 15px 0;
     border-radius: 20px;
     background-color: #FFFAFA;
-    box-shadow: 0 0 25px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50);
 }
-label {
-    color: #FFFAFA;
+
+label, .href-text-color {
+    color: #36456B;
 }
 
 /* navigation */
