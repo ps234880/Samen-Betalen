@@ -86,7 +86,7 @@ input {
 
 .profile-card {
     margin-inline: auto;
-    width: 500px;
+    width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 50);
     background-color: #FFFAFA;
     border-radius: 20px;
