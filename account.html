@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Account</title>
 </head>
 
@@ -23,11 +25,39 @@
     </div>
 
     <div class="layout">
-        <h1>Account</h1>
+        <h1>Account/profiel</h1>
 
-        <p>Email: Test@gmail.com</p>
-        <p>Telefoonnummer: 06 12345678</p>
-        <p>Bankrekeningnummer: RABO 1234 5678 90</p>
+        <div class="container">
+            <div>
+                <img class="profile-image" src="assets/img_avatar.png" alt="">
+                <h2>Naam en achternaam</h2>
+                <p><span class="material-symbols-outlined">mail</span> Test@gmail.com</p>
+                <p><span class="material-symbols-outlined">call</span> 06 12345678</p>
+                <p><span class="material-symbols-outlined">credit_card</span> RABO 1234 5678 90</p>
+            </div>
+
+            <div class="profile-card">
+                <form action="">
+                    <h1>Profiel wijzigen</h1>
+                    <label for="">Email</label>
+                    <input type="email" name="" id="">
+
+                    <label for="">Telefoonnummer</label>
+                    <input type="number" name="" id="">
+
+                    <label for="">Bankrekening</label>
+                    <input type="text" name="" id="">
+
+                    <label for="">Oud wachtwoord</label>
+                    <input type="password" name="" id="">
+
+                    <label for="">Nieuw wachtwoord</label>
+                    <input type="password" name="" id="">
+
+                    <input class="button" type="button" value="Wijzig">
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 
