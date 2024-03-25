@@ -44,9 +44,12 @@ input {
     border: solid 2px #36456B;
     border-radius: 10px;
     height: 35px;
+    padding-left: 5px;
+    font-size: 16px;
 }
 
 .button {
+    margin: 5px 0 ;
     color: #FFFAFA;
     background-color: #36456B;
     height: 40px;
