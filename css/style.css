@@ -35,13 +35,13 @@ form {
     display: flex;
     margin-inline: auto;
     flex-direction: column;
-    width: 90%;
     gap: 10px;
     color: #36456B;
+    width: 90%;
 }
 
 input {
-    border: solid 2px #071B4F;
+    border: solid 2px #36456B;
     border-radius: 10px;
     height: 35px;
 }
@@ -52,11 +52,15 @@ button {
     height: 35px;
     border-radius: 10px;
     border: none;
+    width: 120px;
+    font-weight: bold;
 }
 
 .login-card {
     margin-top: 50px;
     padding: 15px 0;
+    margin-inline: auto;
+    width: 500px;
     border-radius: 20px;
     background-color: #FFFAFA;
     box-shadow: 0 0 10px rgba(0, 0, 0, 50);
@@ -96,6 +100,12 @@ label, .href-text-color {
     display: none;
 }
 
+@media screen and (max-width: 425px) {
+    button {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -104,6 +114,10 @@ label, .href-text-color {
     .topnav a.icon {
         float: right;
         display: block;
+    }
+
+    .login-card {
+        width: auto;
     }
 }
 
