@@ -122,9 +122,9 @@ label, .href-text-color {
     display: block;
     color: #36456B;
     text-align: center;
-    padding: 20px 16px;
+    padding: 30px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .topnav a:hover {
@@ -133,8 +133,7 @@ label, .href-text-color {
 }
 
 .topnav a.active {
-    background-color: grey;
-    color: white;
+    background-color: #ddd;
 }
 
 .topnav .icon {
