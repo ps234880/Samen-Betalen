@@ -178,6 +178,11 @@ label, .href-text-color {
         width: 100%;
         text-align: left;
     }
+
+    .profile-container {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
